@@ -17,3 +17,7 @@
 ### Some topics for exam and real world related 
 
 - [Data Ingestion History](./Databricks_Data_ingestion_journey.md)
+
+### Databricks Exam registration 
+
+- [click_here_to_register](https://www.webassessor.com/databricks)
