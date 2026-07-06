@@ -69,26 +69,26 @@ Enterprise-AIOps-Platform/
 | `images/` | Images and assets |
 
 
-## Plan for Implementing 
+## Plan for Implementing
 
-Enterprise AIOps Platform for Data Engineering
-│
-├── Phase 0 - Business Understanding
-├── Phase 1 - Foundation & Platform Setup
-├── Phase 2 - Data Collection & Telemetry
-├── Phase 3 - Lakehouse Design
-├── Phase 4 - Monitoring Framework
-├── Phase 5 - AI/ML Foundation
-├── Phase 6 - Pipeline Failure Anomaly Detection
-├── Phase 7 - Zero Record & Volume Anomaly
-├── Phase 8 - Schema Drift Detection
-├── Phase 9 - Failure Prediction
-├── Phase 10 - AI Root Cause Analysis (GenAI)
-├── Phase 11 - Smart Alert Correlation
-├── Phase 12 - Prescriptive Recommendation
-├── Phase 13 - Automated Remediation
-├── Phase 14 - MLOps
-├── Phase 15 - Security & Governance
-├── Phase 16 - Dashboard & Reporting
-├── Phase 17 - Production Deployment
-├── Phase 18 - Future Enhancements
+**Enterprise AIOps Platform for Data Engineering**
+
+- Phase 0 — Business Understanding
+- Phase 1 — Foundation & Platform Setup
+- Phase 2 — Data Collection & Telemetry
+- Phase 3 — Lakehouse Design
+- Phase 4 — Monitoring Framework
+- Phase 5 — AI/ML Foundation
+- Phase 6 — Pipeline Failure Anomaly Detection
+- Phase 7 — Zero Record & Volume Anomaly
+- Phase 8 — Schema Drift Detection
+- Phase 9 — Failure Prediction
+- Phase 10 — AI Root Cause Analysis (GenAI)
+- Phase 11 — Smart Alert Correlation
+- Phase 12 — Prescriptive Recommendation
+- Phase 13 — Automated Remediation
+- Phase 14 — MLOps
+- Phase 15 — Security & Governance
+- Phase 16 — Dashboard & Reporting
+- Phase 17 — Production Deployment
+- Phase 18 — Future Enhancements
