@@ -1,6 +1,11 @@
+# 🏗️ Enterprise-AIOps-Platform
+
+## Project Structure
+
+```
 Enterprise-AIOps-Platform/
 │
-├── README.md                    <-- Complete Project Overview
+├── README.md                    # Complete Project Overview
 ├── docs/
 │   ├── 01-Business-Problem.md
 │   ├── 02-Solution-Architecture.md
@@ -27,3 +32,38 @@ Enterprise-AIOps-Platform/
 ├── dashboards/
 ├── pipelines/
 └── images/
+```
+
+## 📚 Documentation Index
+
+| # | Document | Description |
+|---|----------|-------------|
+| 01 | [Business Problem](docs/01-Business-Problem.md) | Problem statement and goals |
+| 02 | [Solution Architecture](docs/02-Solution-Architecture.md) | High-level architecture design |
+| 03 | [Data Ingestion](docs/03-Data-Ingestion.md) | Data sources and ingestion pipelines |
+| 04 | [Lakehouse Architecture](docs/04-Lakehouse-Architecture.md) | Delta Lake / Medallion architecture |
+| 05 | [Feature Engineering](docs/05-Feature-Engineering.md) | ML feature pipeline |
+| 06 | [Anomaly Detection](docs/06-Anomaly-Detection.md) | Anomaly detection models |
+| 07 | [Failure Prediction](docs/07-Failure-Prediction.md) | Predictive failure models |
+| 08 | [Schema Drift](docs/08-Schema-Drift.md) | Schema evolution handling |
+| 09 | [Data Quality](docs/09-Data-Quality.md) | Data quality checks and validation |
+| 10 | [RCA Agent](docs/10-RCA-Agent.md) | Root Cause Analysis agent |
+| 11 | [Alert Correlation](docs/11-Alert-Correlation.md) | Alert grouping and correlation |
+| 12 | [Remediation](docs/12-Remediation.md) | Automated remediation workflows |
+| 13 | [MLOps](docs/13-MLOps.md) | Model lifecycle and management |
+| 14 | [Deployment](docs/14-Deployment.md) | Deployment strategies |
+| 15 | [Security](docs/15-Security.md) | Security and compliance |
+| 16 | [CI/CD](docs/16-CI-CD.md) | Continuous integration and delivery |
+| 17 | [Monitoring](docs/17-Monitoring.md) | Observability and monitoring |
+
+## 📁 Directory Overview
+
+| Folder | Purpose |
+|--------|---------|
+| `docs/` | All project documentation |
+| `notebooks/` | Databricks notebooks |
+| `src/` | Source code |
+| `infrastructure/` | IaC and cloud configs |
+| `dashboards/` | Monitoring dashboards |
+| `pipelines/` | Data pipeline definitions |
+| `images/` | Images and assets |
