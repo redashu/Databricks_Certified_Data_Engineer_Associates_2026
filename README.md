@@ -20,8 +20,8 @@
 
 ## Most Recent Free Udemy Course for Exam Preparation: 
 
-- [DataBricks Data Engineer Associates Exam 2026](https://www.udemy.com/course/databricks-data-engineer-associates-dumps-2026/?couponCode=CRUSH-EXAM)
--  Coupon Code: CRUSH-EXAM
+- [DataBricks Data Engineer Associates Exam 2026](https://www.udemy.com/course/databricks-data-engineer-associates-dumps-2026/?couponCode=DATABRICKS-SEPT)
+-  Coupon Code: DATABRICKS-SEPT
 
 ### Databricks Exam registration 
 
