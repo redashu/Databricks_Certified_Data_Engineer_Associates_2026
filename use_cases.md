@@ -190,3 +190,187 @@ Explain sensor data ingestion, analytics, and ML-driven EV charging recommendati
 **Mahindra – GenAI business applications**
 
 Explain how enterprise data and LLMs can be combined to build business assistants.
+
+## Additional relevant use cases for Zenoti-style business models
+
+### 1. bsport – Closest match to Zenoti's business model
+
+**France / Global fitness SaaS**
+
+**Official Databricks case study**
+
+bsport provides an all-in-one management and marketing platform for boutique fitness businesses. Its platform handles:
+
+- Studio scheduling
+- Payments
+- Customer relationships
+- Day-to-day operations
+- Customer-facing analytics
+
+**Challenge:**
+
+Its legacy architecture relied on PostgreSQL, custom Python integrations, and Apache Airflow. As the platform grew, ingestion and transformation became difficult to maintain.
+
+**Databricks implementation:**
+
+- Apache Spark Declarative Pipelines
+- Lakeflow
+- AUTO CDC
+- Streaming ingestion
+- Data lineage and governance
+- Genie and AI-powered experiences
+
+**Business outcomes:**
+
+- **10x** faster data availability
+- Worst-case data lag reduced from over 24 hours to under 2 hours
+- **33%** lower infrastructure costs
+
+**Why this is relevant to Zenoti:**
+
+Imagine Zenoti managing thousands of salon and spa locations. Every location generates appointments, payments, customer visits, memberships, and staff-performance data. bsport faces a very similar SaaS challenge: consolidating data from multiple sources and turning it into customer-facing analytics.
+
+This is the case study I would definitely use in your presentation.
+
+### 2. Coty – Beauty industry and AI-powered analytics
+
+**Global cosmetics and beauty**
+
+**Official Databricks case study**
+
+Coty manages a large portfolio of fragrance, cosmetics, and skincare brands.
+
+**Business problem:**
+
+Executives had access to Power BI dashboards, but when they wanted to understand why a KPI changed, they had to request additional analysis from the data team.
+
+**Databricks implementation:**
+
+- Unified data cloud
+- Unity Catalog
+- Databricks Genie
+- Lakeflow Designer
+- Governed domain-specific data products
+- Multi-cloud data integration across Azure, AWS, and GCP
+
+Coty deployed five Genie spaces for:
+
+1. Finance
+2. Production planning
+3. Product intelligence
+4. Marketing and commercial analytics
+5. Customer service
+
+**Business outcome:**
+
+More than five senior leaders can query governed business data through natural language instead of waiting for manually prepared reports.
+
+**Why relevant to Zenoti?**
+
+Imagine a Zenoti business owner asking:
+
+- Which salon locations generated the highest revenue this month?
+- Which services have declining demand?
+- Which customers have not visited in 60 days?
+- Which marketing campaigns generated the most bookings?
+- Which branches have the highest customer retention?
+
+This is exactly the type of business intelligence experience you could demonstrate using Databricks Genie.
+
+### 3. Al-Futtaim – Multi-brand and customer engagement
+
+**UAE / Middle East**
+
+**Microsoft customer case study**
+
+Al-Futtaim operates more than 100 entities across 18 markets.
+
+**Problem:**
+
+Different business units operated disconnected systems, making it difficult to build a unified view of customers.
+
+**Solution:**
+
+They built a digital customer engagement platform called Blue using Azure Databricks and Microsoft Fabric.
+
+**Reported outcomes:**
+
+- More than 200 brands connected
+- Nearly 600,000 monthly active users
+- Unified customer data
+- Personalized customer engagement
+- Real-time insights
+
+**Zenoti connection:**
+
+Think about a customer who visits multiple salon branches, purchases packages, uses loyalty points, and books different services. A unified customer profile across locations can help Zenoti enable:
+
+- Customer 360
+- Personalized offers
+- Loyalty analytics
+- Cross-location booking history
+- Customer lifetime value analysis
+
+## Indian companies relevant to Zenoti
+
+### 4. Nykaa – Beauty, customer personalization, and retail analytics
+
+**India / Beauty industry**
+
+**Aveda x Nykaa Zenoti case study**
+
+This is an interesting example because Aveda x Nykaa Lifestyle Salons is itself a Zenoti customer.
+
+Its Zenoti case study reports:
+
+- **27%** increase in package sales
+- **26%** increase in average spend per visit
+- **16.18%** increase in average visits per guest
+
+These improvements were associated with packages, loyalty, personalized recommendations, and WhatsApp campaigns.
+
+> Important distinction: I found evidence of Nykaa's salon business using Zenoti, but not reliable public evidence establishing that Nykaa itself uses Databricks. So use this as a Zenoti-domain business example, not a confirmed Databricks customer.
+
+### 5. Myntra – Customer analytics and personalization
+
+**India / Fashion e-commerce**
+
+**Databricks India customer announcement**
+
+Myntra migrated to Databricks to address its rapidly growing data volumes, with several terabytes added daily.
+
+**Reported benefits:**
+
+- Scalable data ingestion
+- Reduced operational costs
+- Faster real-time data processing
+- Improved platform responsiveness
+
+**Why relevant to Zenoti?**
+
+The business model differs, but the underlying data problems are similar:
+
+| Myntra | Zenoti equivalent |
+|---|---|
+| Customer purchases | Customer bookings |
+| Product recommendations | Service recommendations |
+| Customer retention | Guest retention |
+| Order history | Visit history |
+| Marketing campaigns | Salon promotions |
+| Product demand forecasting | Service demand forecasting |
+
+### 6. Aditya Birla Fashion and Retail – Multi-brand retail analytics
+
+**India / Fashion retail**
+
+**Databricks India announcement**
+
+Databricks named Aditya Birla Fashion and Retail among its Indian customers.
+
+Its multi-brand retail business is relevant for studying:
+
+- Customer segmentation
+- Cross-brand analytics
+- Inventory forecasting
+- Demand prediction
+- Marketing analytics
